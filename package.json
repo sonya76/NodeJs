@@ -2,15 +2,16 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "Découverte de Node.js",
-  "main": "script.js",
+  "main": "env.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon script.js"
+    "start": "nodemon env.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.2",
     "nodemon": "^2.0.19"
   }
 }
